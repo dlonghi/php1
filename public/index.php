@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
 <body>
-
 <?php
-echo "heeeeeellooooo wrld !!!";
-?>
 
+function hint (int $A, float $B, string $C, bool $D)
+{
+    var_dump($A, $B, $C, $D);
+}
+
+?>
 </body>
 </html>
